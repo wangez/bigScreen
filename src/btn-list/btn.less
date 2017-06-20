@@ -1,0 +1,60 @@
+@import '../common/common.less';
+
+@btn-width: 125px;
+@btn-horizon-margin: 1px;
+
+.container {
+    position: relative;
+    float: right;
+    width: @btn-width - @btn-horizon-margin * 2;
+    height: 100%;
+    margin: 0 @btn-horizon-margin;
+    color: #fff;
+    font-size: 18px;
+    line-height: 176px;
+    text-align: center;
+
+    a {
+        .fillParent;
+        z-index: 1;
+    }
+
+    .icon {
+        .absolute;
+        top: 16px;
+        left: ((@btn-width - @btn-horizon-margin * 2) - 48px) / 2;
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid #3698ce;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .btnActive,
+    .btnRing {
+        .absolute;
+        top: 12px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        visibility: hidden;
+    }
+
+    .btnActive {
+        top: 94px;
+    }
+
+    &:hover,
+    &.hover {
+        color: #f9eb3b;
+    }
+
+    &:hover .btnActive,
+    &:hover .btnRing,
+    &.hover .btnActive,
+    &.hover .btnRing {
+        visibility: visible;
+    }
+}

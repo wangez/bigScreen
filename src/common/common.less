@@ -1,0 +1,26 @@
+/*
+mixin
+*/
+//初始化，重置padding、margin
+.init () {
+    padding: 0;
+    margin: 0;
+}
+//绝对定位
+.absolute () {
+    position: absolute;
+}
+//宽度100%
+.fillWidth () {
+    width: 100%;
+}
+//高度100%
+.fillHeight () {
+    height: 100%;
+}
+//填充父容器
+.fillParent () {
+    .absolute;
+    .fillWidth;
+    .fillHeight;
+}

@@ -1,0 +1,3 @@
+const disc = {'枣庄市':'ZZGDJ','ZZGDJ':'枣庄市','济南市':'JNGDJ','JNGDJ':'济南市','东营市':'DYGDJ','DYGDJ':'东营市','淄博市':'ZBGDJ','ZBGDJ':'淄博市','青岛市':'QDGDJ','QDGDJ':'青岛市','烟台市':'YTGDJ','YTGDJ':'烟台市','泰安市':'TAGDJ','TAGDJ':'泰安市','济宁市':'JINGDJ','JINGDJ':'济宁市','威海市':'WHGDJ','WHGDJ':'威海市','莱芜市':'LWGDJ','LWGDJ':'莱芜市','日照市':'RZGDJ','RZGDJ':'日照市','临沂市':'LYGDJ','LYGDJ':'临沂市','菏泽市':'HZGDJ','HZGDJ':'菏泽市','德州市':'DZGDJ','DZGDJ':'德州市','聊城市':'LCGDJ','LCGDJ':'聊城市','滨州市':'BZGDJ','BZGDJ':'滨州市','潍坊市':'WFGDJ','WFGDJ':'潍坊市'};
+
+export default disc;
